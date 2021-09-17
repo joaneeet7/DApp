@@ -13,7 +13,6 @@ pragma experimental ABIEncoderV2;
 
 contract notas {
     
-    // 0x99E32aa19c454bD65ab7A872780Bef6d135b1457
     // Direccion del profesor
     address public profesor;
     
