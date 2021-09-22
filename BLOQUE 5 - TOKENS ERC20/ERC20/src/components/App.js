@@ -11,6 +11,7 @@ class App extends Component {
     await this.loadBlockchainData()
   }
 
+
   async loadWeb3() {
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum)
@@ -40,11 +41,10 @@ class App extends Component {
       console.log('address', address)
       const contract = new web3.eth.Contract(abi, address)
       this.setState({ contract })
-      // Owner del contrato
-      const owner = await this.state.contract.methods.getOwner().call();
-      this.setState({owner: owner})
-      console.log(owner)
-
+      // Direccion del contrato
+      const direccion_smart_contract = await this.state.contract.methods.getContract().call();
+      this.setState({direccion_smart_contract: direccion_smart_contract})
+      console.log('Smart Contract: ', direccion_smart_contract)
     } else {
       window.alert('Smart contract not deployed to detected network.')
     }
@@ -97,13 +97,15 @@ class App extends Component {
     this.state = {
       account: '',
       contract: null,
+      direccion_smart_contract: '',
+      owner: '',
       direccion: '',
       cantidad: 0,
       deposit: '',
       loading: false,
       errorMessage: '',
-      owner: '',
       address_balance: ''
+      
     }
   }
 
@@ -121,7 +123,7 @@ class App extends Component {
           </a>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
-              <small className="text-white"><span id="account">{this.state.owner}</span></small>
+              <small className="text-white"><span id="account">{this.state.direccion_smart_contract}</span></small>
             </li>
           </ul>
         </nav>
@@ -131,7 +133,7 @@ class App extends Component {
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
 
-                <h1>Envío de tokens ERC-20</h1>
+                <h1>Comprar tokens ERC-20</h1>
  
                 <form onSubmit={(event) => {
                   event.preventDefault()
@@ -158,7 +160,7 @@ class App extends Component {
                   <input
                     type='submit'
                     className='btn btn-block btn-danger btn-sm'
-                    value='ENVIAR TOKENS'
+                    value='COMPRAR TOKENS'
                   />
                 </form>
   

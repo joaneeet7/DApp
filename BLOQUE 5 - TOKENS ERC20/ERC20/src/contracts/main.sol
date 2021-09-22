@@ -11,23 +11,26 @@ contract main {
     
     // Owner del contrato
     address public owner;
+
+    // Dirección del contrato
+    address public contrato;
     
     // Constructor 
     constructor () public {
         token = new ERC20Basic(10000);
         owner = msg.sender;
-    }
-    
-    modifier onlybyOwner() {
-        require (msg.sender == owner, "No tienes permisos para ejecutar esta funcion.");
-        _;
+        contrato = address(this);
     }
     
     function getOwner() public view returns (address){
         return owner;
     }
 
-    function send_tokens (address _reciever, uint _numTokens) public onlybyOwner() {
+    function getContract() public view returns (address){
+        return contrato;
+    }
+
+    function send_tokens (address _reciever, uint _numTokens) public {
         token.transfer(_reciever, _numTokens);
     }
     
