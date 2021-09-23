@@ -3,6 +3,7 @@ pragma solidity >=0.4.4 <0.7.0;
 pragma experimental ABIEncoderV2;
 import "./SafeMath.sol";
 
+
 interface IERC20{
     function totalSupply() external view returns (uint256);
     function balanceOf (address account) external view returns (uint256);
