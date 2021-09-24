@@ -34,7 +34,7 @@ class App extends Component {
     const accounts = await web3.eth.getAccounts()
     this.setState({account: accounts[0]})
     console.log('account', this.state.account)
-    const networkId = '5777'
+    const networkId = '4' // Rinkeby -> 4 , Ganache -> 5777
     console.log('networkId: ', networkId)
     const networkData = contrato_token.networks[networkId]
     console.log('networkData: ', networkData)
