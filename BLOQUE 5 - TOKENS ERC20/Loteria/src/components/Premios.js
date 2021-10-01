@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import Web3 from 'web3'
 import contrato_loteria from '../abis/loteria.json'
-// Imagenes 
-import loteria from '../imagenes/loteria.png';
-import tokens from '../imagenes/tokens.png';
+import ganador from '../imagenes/winner.png';
+import { Icon } from 'semantic-ui-react'
 
-class App extends Component {
+
+class Premios extends Component {
   
   async componentWillMount(){
     // Carga de Web3
@@ -248,184 +248,19 @@ class App extends Component {
                 
               <h1>Lotería con Tokens ERC-20</h1>
 
-              &nbsp;
+            <h2>Premios del sorteo</h2>
 
-              <h2>Gestión y control de Tokens de la Lotería</h2>
-
-              <a  href="http://www.linkedin.com/in/joanamengual7"
+            <a  href="http://www.linkedin.com/in/joanamengual7"
                   target="_blank"
                   rel="noopener noreferrer">
               <p> </p>
-              <img src={tokens} width="450" height="400" alt=""/>
-              </a>
-              <p> </p>
-
-              &nbsp;
-             
-              <h3>Comprar tokens ERC-20</h3>
-                <form onSubmit = {(event) => {
-                    event.preventDefault()
-                    const comprador_tokens = this.comprador_tokens.value
-                    const cantidad = this.cantidad.value
-                    const web3 = window.web3
-                    const ethers = web3.utils.toWei(this.cantidad.value, 'ether')
-                    const mensaje = 'Compra de tokens en ejecución...'
-                    this.envio(comprador_tokens,cantidad, ethers, mensaje)
-                }}>  
-                
-                
-                <input type= 'text' 
-                        className='form-control mb-1' 
-                        placeholder = 'Dirección del comprador de tokens'
-                        ref = {(input) => {this.comprador_tokens = input}}/> 
-         
-
-                <input type= 'text' 
-                        className='form-control mb-1' 
-                        placeholder = 'Cantidad de Tokens a comprar (1 Token = 1 Ether)'
-                        ref = {(input) => {this.cantidad = input}}/> 
-         
-                
-                <input type = 'submit'
-                        className= 'bbtn btn-block btn-danger btn-sm'
-                        value = 'COMPRAR TOKENS'/> 
-                
-                
-                </form>
-
-                &nbsp;
-
-              <h3> Balance total de tokens de un usuario </h3>
-
-                <form onSubmit = {(event) => {
-                    event.preventDefault()
-                    const direccion = this.direccion.value
-                    const mensaje = 'Balance de tokens de una persona en ejecución...'
-                    this.balance_persona(direccion, mensaje)
-                }}>  
-
-                <input type= 'text' 
-                    className='form-control mb-1' 
-                    placeholder = 'Dirección del propietario'
-                    ref = {(input) => {this.direccion = input}}/> 
-
-                <input type = 'submit'
-                        className= 'bbtn btn-block btn-success btn-sm'
-                        value = 'BALANCE DE TOKENS'/> 
-
-
-                </form>  
-             
-                &nbsp;
-
-              <h3>Balance de tokens del Smart Contract</h3>
-
-              <form onSubmit = {(event) => {
-                event.preventDefault()
-                const mensaje = 'Balance de tokens del Smart Contract en ejecución...'
-                this.balance_contrato(mensaje)
-              }}>  
-
-              <input type = 'submit'
-                    className= 'bbtn btn-block btn-primary btn-sm'
-                    value = 'BALANCE DE TOKENS'/> 
-
-              </form>
-
-              &nbsp;
-
-            <h3> Añadir nuevos Tokens </h3>
-
-              <form onSubmit = {(event) => {
-                event.preventDefault()
-                const mensaje = 'Incremento de tokens del Smart Contract en ejecución...'
-                const num_tokens = this.num_tokens.value
-                this.incremento_tokens(num_tokens, mensaje)
-              }}>  
-
-              <input type= 'text' 
-                    className='form-control mb-1' 
-                    placeholder = 'Cantidad de tokens a incrementar'
-                    ref = {(input) => {this.num_tokens = input}}/> 
-
-
-              <input type = 'submit'
-                    className= 'bbtn btn-block btn-warning btn-sm'
-                    value = 'INCREMENTO DE TOKENS'/> 
-
-              </form>
-              
-            &nbsp;
-
-            <h2>Gestión y control de compra de boletos de Lotería</h2>
-
-
-              <a  href="http://www.linkedin.com/in/joanamengual7"
-                  target="_blank"
-                  rel="noopener noreferrer">
-              <p> </p>
-              <img src={loteria} width="500" height="350" alt=""/>
+              <img src={ganador} width="350" height="350" alt=""/>
               </a>
               <p> </p>
 
             &nbsp;
 
-            <h3> Bote </h3>
-
-            <form onSubmit = {(event) => {
-                event.preventDefault()
-                const mensaje = 'Bote de tokens recolectado en ejecución...'
-                this.bote(mensaje)
-            }}>  
-
-            <input type = 'submit'
-                    className= 'bbtn btn-block btn-danger btn-sm'
-                    value = 'BOTE DE TOKENS'/> 
-
-            </form>
-
-            &nbsp;
-
-            <h3> Precio del boleto </h3>
-
-            <form onSubmit = {(event) => {
-                event.preventDefault()
-                const mensaje = 'Precio del boleto en ejecución...'
-                this.precio_boleto(mensaje)
-            }}>  
-
-            <input type = 'submit'
-                    className= 'bbtn btn-block btn-success btn-sm'
-                    value = 'PRECIO DEL BOLETO'/> 
-
-            </form>
-
-            &nbsp;
-
-            <h3> Compra de boletos </h3>
-
-            <form onSubmit = {(event) => {
-                event.preventDefault()
-                const mensaje = 'Compra de boletos en ejecución...'
-                const boletos_comprados = this.boletos_comprados.value
-                this.compra_boletos(boletos_comprados, mensaje)
-            }}>  
-
-            <input type= 'text' 
-                    className='form-control mb-1' 
-                    placeholder = 'Cantidad de boletos a comprar'
-                    ref = {(input) => {this.boletos_comprados = input}}/> 
-
-
-            <input type = 'submit'
-                    className= 'bbtn btn-block btn-warning btn-sm'
-                    value = 'BOLETOS A COMPRAR'/> 
-
-            </form>
-
-            &nbsp;
-
-            <h3> Generar ganador </h3>
+            <h3>  <Icon circular inverted color='teal' name='users' /> Generar ganador </h3>
 
             <form onSubmit = {(event) => {
                 event.preventDefault()
@@ -441,8 +276,9 @@ class App extends Component {
 
             &nbsp;
 
-            <h3> Ver el ganador </h3>
+            <h3> <Icon circular inverted color='teal' name='winner'/> Ver el ganador </h3>
 
+            
             <form onSubmit = {(event) => {
                 event.preventDefault()
                 const mensaje = 'Ver el ganador en ejecución...'
@@ -457,7 +293,7 @@ class App extends Component {
 
             &nbsp;
 
-            <h3> Devolver Tokens </h3>
+            <h3> <Icon circular inverted color='teal' name='money bill alternate'/> Devolver Tokens </h3>
                 <form onSubmit = {(event) => {
                     event.preventDefault()
                     const devolucion = this.devolucion.value
@@ -477,6 +313,7 @@ class App extends Component {
             
             
             </form>
+
                 
               </div>
             </main>
@@ -487,4 +324,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Premios;
