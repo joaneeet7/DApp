@@ -50,6 +50,10 @@ contract loteria {
         uint coste = PrecioTokens(_numTokens);
         // Se requiere que el valor de ethers pagados sea equivalente al coste 
         require (msg.value >= coste, "Compra menos Tokens o paga con mas Ethers.");
+        // Diferencia a pagar 
+        uint returnValue = msg.value - coste;
+        // Tranferencia de la diferencia 
+        msg.sender.transfer(returnValue);
         // Obtener el balance de Tokens del contrato 
         uint Balance = TokensDisponibles();
         // Filtro para evaluar los tokens a comprar con los tokens disponibles 
