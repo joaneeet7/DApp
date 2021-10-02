@@ -1,5 +1,8 @@
 # DApp
  Creación de Aplicaciones Descentralizadas
  
- Instructor Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
- Instructor LinkedIn: https://www.linkedin.com/in/joanamengual7/
+## Instructor 
+
+LinkedIn del Instructor: https://www.linkedin.com/in/joanamengual7/
+
+Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
