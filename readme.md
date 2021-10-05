@@ -10,3 +10,5 @@ Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
 ## Descripción del curso
 
 Curso enfocado a la creación de DApps con React y Binance Smart Chain (BSC). Además, también usamos Rinkeby y Ganache.
+
+Estos son cambios procedentes de la rama de Readme
