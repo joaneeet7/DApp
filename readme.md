@@ -1,4 +1,4 @@
-# Instructor 
+# Comunidad Blockchain 
 
 * LinkedIn del Instructor: https://www.linkedin.com/in/joanamengual7/
 
