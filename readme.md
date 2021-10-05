@@ -50,3 +50,21 @@ En el curso nos centraremos en:
 * Desplegarás una DApp para la venta de Tokens ERC-20 en Binance Smart Chain (BSC). 
 
 * Finalmente, realizaremos la creación de una Blockchain y una Criptomoneda con Python desde 0.
+
+## ¿A quién le interesa el curso?
+
+Este curso es ideal para cualquiera que quiera obtener conocimientos acerca de la desarrollo de Aplicaciones Distribuidas (DApps) en Blockchain:
+En particular te lo recomiendo si eres:
+
+- Un consultor freelance que tiene habilidades de programación y quiere transformar las empresas con el poder de la Blockchain
+
+- Empresarios y dueños visionarios que quieren subir sus empresas de categoría de nivel con el poder del Blockchain
+
+- Iniciados en Blockchain que quieren mejorar su portfolio con nuevos proyectos
+
+- Apasionados en la tecnología que quieren ganar experiencia con la programación en Blockchain
+
+- Cualquier persona interesada en mejorar y adaptarse a los cambios tecnológicos presentes
+Una vez termines el curso, serás todo un desarrollador de Blockchain. ¡Te esperamos en clase para que por fin disfrutes de la creación de Aplicaciones Distribuidas (DApps) con Tokens y que así puedas convertirte en todo un profesional!
+
+¡Nos vemos en clase!
