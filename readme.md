@@ -1,8 +1,8 @@
 # Instructor 
 
-LinkedIn del Instructor: https://www.linkedin.com/in/joanamengual7/
+* LinkedIn del Instructor: https://www.linkedin.com/in/joanamengual7/
 
-Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
+* Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
 
 
 # Curso de DApps con Tokens NFT usando React y Truffle
