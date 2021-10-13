@@ -4,8 +4,6 @@
 
 * Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
 
-* Canal de Discord de Blockchain: https://discord.gg/HYzWz8YHva
-
 # Curso de DApps con Tokens NFT usando React y Truffle
 
 * ¿Quieres convertirte en un desarrollador de la tecnología Blockchain?
