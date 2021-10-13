@@ -4,7 +4,7 @@
 
 * Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
 
-# Curso de DApps con Tokens NFT usando React y Truffle
+# [Curso de DApps con Tokens NFT usando React y Truffle](https://www.udemy.com/course/draft/4139082/?referralCode=341C9892151D9C7CE372)
 
 * ¿Quieres convertirte en un desarrollador de la tecnología Blockchain?
 * ¿Quieres crear Aplicaciones Distribuida (DApps) desde cero?
