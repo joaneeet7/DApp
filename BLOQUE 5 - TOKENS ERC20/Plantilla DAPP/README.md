@@ -7,7 +7,7 @@
 # [Curso de DApps con Tokens NFT usando React y Truffle](https://www.udemy.com/course/draft/4139082/?referralCode=341C9892151D9C7CE372)
 
 * ¿Quieres convertirte en un desarrollador de la tecnología Blockchain?
-* ¿Quieres crear Aplicaciones Distribuida (DApps) desde cero?
+* ¿Quieres crear Aplicaciones Distribuidas (DApps) desde cero?
 * ¿Eres un emprendedor que quiere transformar su negocio con el poder de la tecnología Blockchain pero no sabes cómo conseguirlo?
 
 Si la respuesta a alguna de estas preguntas es Sí, entonces este curso es para ti.
