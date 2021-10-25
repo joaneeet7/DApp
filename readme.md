@@ -6,7 +6,7 @@
 
 * Cursos de Blockchain: https://jamengual150899.wixsite.com/joan-amengual
 
-# [Curso de DApps con Tokens NFT usando React y Truffle](https://www.udemy.com/course/draft/4139082/?referralCode=341C9892151D9C7CE372)
+# [Curso de DApps con Tokens NFT usando React y Truffle](https://jamengual150899.wixsite.com/joan-amengual)
 
 * ¿Quieres convertirte en un desarrollador de la tecnología Blockchain?
 * ¿Quieres crear Aplicaciones Distribuidas (DApps) desde cero?
