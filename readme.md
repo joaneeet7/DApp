@@ -4,9 +4,9 @@
 
 * Perfil de Udemy: https://www.udemy.com/user/joan-amengual-mesquida/
 
-* Cursos de Blockchain: https://jamengual150899.wixsite.com/joan-amengual
+* Cursos de Blockchain: https://joan-amengual.com
 
-# [Curso de DApps con Tokens NFT usando React y Truffle](https://jamengual150899.wixsite.com/joan-amengual)
+# [Curso de DApps con Tokens NFT usando React y Truffle](https://joan-amengual.com)
 
 * ¿Quieres convertirte en un desarrollador de la tecnología Blockchain?
 * ¿Quieres crear Aplicaciones Distribuidas (DApps) desde cero?
