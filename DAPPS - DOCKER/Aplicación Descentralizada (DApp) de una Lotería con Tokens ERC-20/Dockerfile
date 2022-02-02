@@ -7,7 +7,6 @@ WORKDIR /usr/src/app
 # Instalación de módulos necesarios
 COPY package*.json ./
 RUN rm -rvf node_modules/ package-lock.json
-RUN npm i -f
 RUN npm install
 RUN npm install -g truffle@5.4.5
 

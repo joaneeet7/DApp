@@ -31,7 +31,7 @@ class App extends Component {
     // Cargar una cuenta
     const accounts = await web3.eth.getAccounts()
     this.setState({account: accounts[0]})
-    const networkId = '5777'
+    const networkId = await web3.eth.net.getId()
     const networkData = Color.networks[networkId]
     if(networkData) {
       const abi = Color.abi 

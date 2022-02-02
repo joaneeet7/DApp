@@ -255,7 +255,7 @@
   "sourceMap": "794:2257:0:-:0;;;1308:116;5:9:-1;2:2;;;27:1;24;17:12;2:2;1308:116:0;;;;;;;;;;;;;;;;;;;;;;;;1367:5;1352:12;:20;;;;1405:12;;1382:8;:20;1391:10;1382:20;;;;;;;;;;;;;;;:35;;;;1308:116;794:2257;;5:134:-1;;89:6;83:13;74:22;;101:33;128:5;101:33;;;68:71;;;;;146:263;;261:2;249:9;240:7;236:23;232:32;229:2;;;277:1;274;267:12;229:2;312:1;329:64;385:7;376:6;365:9;361:22;329:64;;;319:74;;291:108;223:186;;;;;416:72;;478:5;467:16;;461:27;;;;495:117;564:24;582:5;564:24;;;557:5;554:35;544:2;;603:1;600;593:12;544:2;538:74;;794:2257:0;;;;;;;",
   "deployedSourceMap": "794:2257:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;794:2257:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;830:42:0;;;:::i;:::-;;;;;;;;;;;;;;;;2180:221;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;1434:97;;;:::i;:::-;;;;;;;;;;;;;;;;2557:487;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;927:34;;;:::i;:::-;;;;;;;;;;;;;;;;1541:135;;;;;;;;;;;;;;;;:::i;:::-;;1686:122;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;878:43;;;:::i;:::-;;;;;;;;;;;;;;;;1818:351;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;2411:136;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;830:42;;;;;;;;;;;;;;;;;;;:::o;2180:221::-;2260:4;2308:9;2276:7;:19;2284:10;2276:19;;;;;;;;;;;;;;;:29;2296:8;2276:29;;;;;;;;;;;;;;;:41;;;;2353:8;2332:41;;2341:10;2332:41;;;2363:9;2332:41;;;;;;;;;;;;;;;2390:4;2383:11;;2180:221;;;;:::o;1434:97::-;1487:7;1512:12;;1505:19;;1434:97;:::o;2557:487::-;2653:4;2690:8;:15;2699:5;2690:15;;;;;;;;;;;;;;;;2677:9;:28;;2668:38;;12:1:-1;9;2:12;2668:38:0;2738:7;:14;2746:5;2738:14;;;;;;;;;;;;;;;:26;2753:10;2738:26;;;;;;;;;;;;;;;;2725:9;:39;;2716:49;;12:1:-1;9;2:12;2716:49:0;2802:30;2822:9;2802:8;:15;2811:5;2802:15;;;;;;;;;;;;;;;;:19;;:30;;;;:::i;:::-;2784:8;:15;2793:5;2784:15;;;;;;;;;;;;;;;:48;;;;2871:41;2902:9;2871:7;:14;2879:5;2871:14;;;;;;;;;;;;;;;:26;2886:10;2871:26;;;;;;;;;;;;;;;;:30;;:41;;;;:::i;:::-;2842:7;:14;2850:5;2842:14;;;;;;;;;;;;;;;:26;2857:10;2842:26;;;;;;;;;;;;;;;:70;;;;2940:30;2960:9;2940:8;:15;2949:5;2940:15;;;;;;;;;;;;;;;;:19;;:30;;;;:::i;:::-;2922:8;:15;2931:5;2922:15;;;;;;;;;;;;;;;:48;;;;3000:5;2985:31;;2994:5;2985:31;;;3006:9;2985:31;;;;;;;;;;;;;;;3033:4;3026:11;;2557:487;;;;;:::o;927:34::-;960:1;927:34;:::o;1541:135::-;1617:9;1601:12;;:25;;;;;;;;;;;1660:9;1636:8;:20;1645:10;1636:20;;;;;;;;;;;;;;;;:33;;;;;;;;;;;1541:135;:::o;1686:122::-;1756:7;1781:8;:20;1790:10;1781:20;;;;;;;;;;;;;;;;1774:27;;1686:122;;;:::o;878:43::-;;;;;;;;;;;;;;;;;;;:::o;1818:351::-;1898:4;1934:8;:20;1943:10;1934:20;;;;;;;;;;;;;;;;1921:9;:33;;1913:42;;12:1:-1;9;2:12;1913:42:0;1988:35;2013:9;1988:8;:20;1997:10;1988:20;;;;;;;;;;;;;;;;:24;;:35;;;;:::i;:::-;1965:8;:20;1974:10;1965:20;;;;;;;;;;;;;;;:58;;;;2054:33;2077:9;2054:8;:18;2063:8;2054:18;;;;;;;;;;;;;;;;:22;;:33;;;;:::i;:::-;2033:8;:18;2042:8;2033:18;;;;;;;;;;;;;;;:54;;;;2122:8;2102:39;;2111:10;2102:39;;;2131:9;2102:39;;;;;;;;;;;;;;;2158:4;2151:11;;1818:351;;;;:::o;2411:136::-;2494:4;2516:7;:14;2524:5;2516:14;;;;;;;;;;;;;;;:24;2531:8;2516:24;;;;;;;;;;;;;;;;2509:31;;2411:136;;;;:::o;308:116:3:-;366:7;395:1;390;:6;;383:14;;;;416:1;412;:5;405:12;;308:116;;;;:::o;447:137::-;505:7;522:9;538:1;534;:5;522:17;;559:1;554;:6;;547:14;;;;576:1;569:8;;;447:137;;;;:::o;5:130:-1:-;;85:6;72:20;63:29;;97:33;124:5;97:33;;;57:78;;;;;142:130;;222:6;209:20;200:29;;234:33;261:5;234:33;;;194:78;;;;;279:241;;383:2;371:9;362:7;358:23;354:32;351:2;;;399:1;396;389:12;351:2;434:1;451:53;496:7;487:6;476:9;472:22;451:53;;;441:63;;413:97;345:175;;;;;527:366;;;648:2;636:9;627:7;623:23;619:32;616:2;;;664:1;661;654:12;616:2;699:1;716:53;761:7;752:6;741:9;737:22;716:53;;;706:63;;678:97;806:2;824:53;869:7;860:6;849:9;845:22;824:53;;;814:63;;785:98;610:283;;;;;;900:491;;;;1038:2;1026:9;1017:7;1013:23;1009:32;1006:2;;;1054:1;1051;1044:12;1006:2;1089:1;1106:53;1151:7;1142:6;1131:9;1127:22;1106:53;;;1096:63;;1068:97;1196:2;1214:53;1259:7;1250:6;1239:9;1235:22;1214:53;;;1204:63;;1175:98;1304:2;1322:53;1367:7;1358:6;1347:9;1343:22;1322:53;;;1312:63;;1283:98;1000:391;;;;;;1398:366;;;1519:2;1507:9;1498:7;1494:23;1490:32;1487:2;;;1535:1;1532;1525:12;1487:2;1570:1;1587:53;1632:7;1623:6;1612:9;1608:22;1587:53;;;1577:63;;1549:97;1677:2;1695:53;1740:7;1731:6;1720:9;1716:22;1695:53;;;1685:63;;1656:98;1481:283;;;;;;1771:241;;1875:2;1863:9;1854:7;1850:23;1846:32;1843:2;;;1891:1;1888;1881:12;1843:2;1926:1;1943:53;1988:7;1979:6;1968:9;1964:22;1943:53;;;1933:63;;1905:97;1837:175;;;;;2019:104;2096:21;2111:5;2096:21;;;2091:3;2084:34;2078:45;;;2130:347;;2242:39;2275:5;2242:39;;;2293:71;2357:6;2352:3;2293:71;;;2286:78;;2369:52;2414:6;2409:3;2402:4;2395:5;2391:16;2369:52;;;2442:29;2464:6;2442:29;;;2437:3;2433:39;2426:46;;2222:255;;;;;;2484:113;2567:24;2585:5;2567:24;;;2562:3;2555:37;2549:48;;;2604:107;2683:22;2699:5;2683:22;;;2678:3;2671:35;2665:46;;;2718:210;;2839:2;2828:9;2824:18;2816:26;;2853:65;2915:1;2904:9;2900:17;2891:6;2853:65;;;2810:118;;;;;2935:310;;3082:2;3071:9;3067:18;3059:26;;3132:9;3126:4;3122:20;3118:1;3107:9;3103:17;3096:47;3157:78;3230:4;3221:6;3157:78;;;3149:86;;3053:192;;;;;3252:222;;3379:2;3368:9;3364:18;3356:26;;3393:71;3461:1;3450:9;3446:17;3437:6;3393:71;;;3350:124;;;;;3481:214;;3604:2;3593:9;3589:18;3581:26;;3618:67;3682:1;3671:9;3667:17;3658:6;3618:67;;;3575:120;;;;;3702:122;;3796:5;3790:12;3780:22;;3761:63;;;;3832:163;;3947:6;3942:3;3935:19;3984:4;3979:3;3975:14;3960:29;;3928:67;;;;;4003:91;;4065:24;4083:5;4065:24;;;4054:35;;4048:46;;;;4101:85;;4174:5;4167:13;4160:21;4149:32;;4143:43;;;;4193:121;;4266:42;4259:5;4255:54;4244:65;;4238:76;;;;4321:72;;4383:5;4372:16;;4366:27;;;;4400:81;;4471:4;4464:5;4460:16;4449:27;;4443:38;;;;4489:268;4554:1;4561:101;4575:6;4572:1;4569:13;4561:101;;;4651:1;4646:3;4642:11;4636:18;4632:1;4627:3;4623:11;4616:39;4597:2;4594:1;4590:10;4585:15;;4561:101;;;4677:6;4674:1;4671:13;4668:2;;;4742:1;4733:6;4728:3;4724:16;4717:27;4668:2;4538:219;;;;;4765:97;;4853:2;4849:7;4844:2;4837:5;4833:14;4829:28;4819:38;;4813:49;;;;4870:117;4939:24;4957:5;4939:24;;;4932:5;4929:35;4919:2;;4978:1;4975;4968:12;4919:2;4913:74;;4994:117;5063:24;5081:5;5063:24;;;5056:5;5053:35;5043:2;;5102:1;5099;5092:12;5043:2;5037:74;",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.4 <0.7.0;\npragma experimental ABIEncoderV2;\nimport \"./SafeMath.sol\";\n\n\ninterface IERC20{\n    function totalSupply() external view returns (uint256);\n    function balanceOf (address account) external view returns (uint256);\n    function allowance(address owner,address spender) external view returns (uint256);\n    function transfer(address recipient, uint256 amount) external returns (bool);\n    function approve (address spender, uint256 amount) external returns (bool);\n    function transferFrom(address sender, address recipient, uint amount) external returns (bool);\n    \n    event Transfer(address indexed from, address indexed to, uint256 value);\n    event Approval (address indexed owner, address indexed spender, uint256 value);\n}\n\ncontract ERC20Basic is IERC20 {\n    string public constant name = \"ERC20Basic\";\n    string public constant symbol = \"JBJ-TOKEN\";\n    uint8 public constant decimals = 2;\n    \n    event Transfer(address indexed from, address indexed to, uint256 tokens);\n    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);\n    \n    mapping (address => uint) balances;\n    mapping(address => mapping (address => uint)) allowed;\n    uint256 totalSupply_;\n    \n    using SafeMath for uint256;\n    \n    constructor (uint256 total) public{\n        totalSupply_ = total;\n        balances[msg.sender] = totalSupply_;\n    }\n    \n    function totalSupply() public override view returns (uint256){\n        return totalSupply_;\n    }\n    \n    function increaseTotalSuply(uint newTokens) public{\n        totalSupply_ += newTokens;\n        balances[msg.sender] += newTokens;\n    }\n    \n    function balanceOf (address tokenOwner) public override view returns (uint256){\n        return balances[tokenOwner];\n    }\n    \n    function transfer(address receiver, uint256 numTokens) public override returns (bool){\n        require(numTokens <= balances[msg.sender]);\n        balances[msg.sender] = balances[msg.sender].sub(numTokens);\n        balances[receiver] = balances[receiver].add(numTokens);\n        emit Transfer(msg.sender,receiver,numTokens);\n        return true;\n    } \n    \n    function approve (address delegate, uint256 numTokens) public override returns (bool) {\n        allowed[msg.sender][delegate] = numTokens;\n        emit Approval(msg.sender, delegate, numTokens);\n        return true;\n    }\n    \n    function allowance (address owner, address delegate) public override view returns (uint){\n        return allowed[owner][delegate];\n    }\n    \n    function transferFrom(address owner, address buyer, uint256 numTokens) public override returns (bool){\n        require (numTokens <= balances[owner]);\n        require (numTokens <= allowed[owner][msg.sender]);\n        \n        balances[owner] = balances[owner].sub(numTokens);\n        allowed[owner][msg.sender] = allowed[owner][msg.sender].sub(numTokens);\n        balances[buyer] = balances[buyer].add(numTokens);\n        emit Transfer(owner,buyer,numTokens);\n        return true;\n    }\n    \n}",
-  "sourcePath": "/Users/joan_amengual/Desktop/ERC20/src/contracts/ERC20.sol",
+  "sourcePath": "/Users/joan_amengual/GitHub/DApp/DAPPS - DOCKER/Aplicación Descentralizada (DApp) con Tokens ERC-20/src/contracts/ERC20.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/ERC20.sol",
     "exportedSymbols": {
@@ -299,7 +299,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 348,
-        "sourceUnit": 575,
+        "sourceUnit": 662,
         "src": "98:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1700,10 +1700,10 @@
               "id": 110,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 574,
+              "referencedDeclaration": 661,
               "src": "1277:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$574",
+                "typeIdentifier": "t_contract$_SafeMath_$661",
                 "typeString": "library SafeMath"
               }
             },
@@ -2651,7 +2651,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 515,
+                        "referencedDeclaration": 602,
                         "src": "1988:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2804,7 +2804,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 539,
+                        "referencedDeclaration": 626,
                         "src": "2054:22:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4076,7 +4076,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 515,
+                        "referencedDeclaration": 602,
                         "src": "2802:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4315,7 +4315,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 515,
+                        "referencedDeclaration": 602,
                         "src": "2871:30:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4468,7 +4468,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 539,
+                        "referencedDeclaration": 626,
                         "src": "2940:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4815,7 +4815,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 575,
+          "SourceUnit": 662,
           "absolutePath": "project:/src/contracts/SafeMath.sol",
           "file": "./SafeMath.sol",
           "scope": 348,
@@ -6291,7 +6291,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 574,
+                  "referencedDeclaration": 661,
                   "type": "library SafeMath"
                 },
                 "id": 110,
@@ -7412,7 +7412,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
-                                  "referencedDeclaration": 515,
+                                  "referencedDeclaration": 602,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -7595,7 +7595,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
-                                  "referencedDeclaration": 539,
+                                  "referencedDeclaration": 626,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -9000,7 +9000,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
-                                  "referencedDeclaration": 515,
+                                  "referencedDeclaration": 602,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -9212,7 +9212,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
-                                  "referencedDeclaration": 515,
+                                  "referencedDeclaration": 602,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -9424,7 +9424,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
-                                  "referencedDeclaration": 539,
+                                  "referencedDeclaration": 626,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -9655,7 +9655,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-09-22T14:19:55.571Z",
+  "updatedAt": "2022-02-02T20:09:33.695Z",
   "devdoc": {
     "methods": {}
   },

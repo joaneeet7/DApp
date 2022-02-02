@@ -1,4 +1,4 @@
-const Main = artifacts.require("Main");
+const Main = artifacts.require("main");
 
 module.exports = function(deployer) {
   deployer.deploy(Main);

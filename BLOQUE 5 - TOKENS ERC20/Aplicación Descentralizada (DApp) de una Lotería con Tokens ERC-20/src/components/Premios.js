@@ -36,7 +36,7 @@ class Premios extends Component {
         const accounts = await web3.eth.getAccounts()
         this.setState({account: accounts[0]})
         console.log('Account:', this.state.account)
-        const networkId = '97' // Ganache -> 5777, Rinkeby -> 4, BSC -> 97
+        const networkId = await web3.eth.net.getId() // Ganache -> 5777, Rinkeby -> 4, BSC -> 97
         console.log('networkid:', networkId)
         const networkData = contrato_loteria.networks[networkId]
         console.log('NetworkData:', networkData)
