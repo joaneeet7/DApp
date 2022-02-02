@@ -1,0 +1,1 @@
+{"ast":null,"code":"// Public components\nimport { Popper } from './Popper';\nimport { Manager } from './Manager';\nimport { Reference } from './Reference';\nimport { usePopper } from './usePopper';\nexport { Popper, Manager, Reference, usePopper }; // Public types","map":null,"metadata":{},"sourceType":"module"}

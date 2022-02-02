@@ -1,0 +1,1 @@
+{"ast":null,"code":"import getNative from './_getNative.js';\nimport root from './_root.js';\n/* Built-in method references that are verified to be native. */\n\nvar WeakMap = getNative(root, 'WeakMap');\nexport default WeakMap;","map":null,"metadata":{},"sourceType":"module"}

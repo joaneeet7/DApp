@@ -1,0 +1,1 @@
+{"ast":null,"code":"import WeakMap from './_WeakMap.js';\n/** Used to store function metadata. */\n\nvar metaMap = WeakMap && new WeakMap();\nexport default metaMap;","map":null,"metadata":{},"sourceType":"module"}

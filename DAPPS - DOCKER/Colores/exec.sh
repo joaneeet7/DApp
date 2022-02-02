@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build -t colores:v1 .                    
+docker run -p 3000:3000 colores:v1 entrypoint.sh
