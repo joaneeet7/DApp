@@ -1,1 +1,0 @@
-{"ast":null,"code":"import root from './_root.js';\n/** Built-in value references. */\n\nvar Uint8Array = root.Uint8Array;\nexport default Uint8Array;","map":null,"metadata":{},"sourceType":"module"}

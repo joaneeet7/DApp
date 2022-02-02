@@ -1,1 +1,0 @@
-{"ast":null,"code":"import nativeCreate from './_nativeCreate.js';\n/**\n * Removes all key-value entries from the hash.\n *\n * @private\n * @name clear\n * @memberOf Hash\n */\n\nfunction hashClear() {\n  this.__data__ = nativeCreate ? nativeCreate(null) : {};\n  this.size = 0;\n}\n\nexport default hashClear;","map":null,"metadata":{},"sourceType":"module"}

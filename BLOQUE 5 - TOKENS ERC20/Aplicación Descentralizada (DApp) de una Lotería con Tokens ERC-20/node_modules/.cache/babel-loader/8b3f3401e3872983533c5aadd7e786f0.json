@@ -1,1 +1,0 @@
-{"ast":null,"code":"import getNative from './_getNative.js';\n/* Built-in method references that are verified to be native. */\n\nvar nativeCreate = getNative(Object, 'create');\nexport default nativeCreate;","map":null,"metadata":{},"sourceType":"module"}

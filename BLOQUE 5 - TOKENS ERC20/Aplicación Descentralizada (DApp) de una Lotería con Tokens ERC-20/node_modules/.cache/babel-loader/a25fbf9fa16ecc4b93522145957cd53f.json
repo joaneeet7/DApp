@@ -1,1 +1,0 @@
-{"ast":null,"code":"import getNative from './_getNative.js';\n\nvar defineProperty = function () {\n  try {\n    var func = getNative(Object, 'defineProperty');\n    func({}, '', {});\n    return func;\n  } catch (e) {}\n}();\n\nexport default defineProperty;","map":null,"metadata":{},"sourceType":"module"}

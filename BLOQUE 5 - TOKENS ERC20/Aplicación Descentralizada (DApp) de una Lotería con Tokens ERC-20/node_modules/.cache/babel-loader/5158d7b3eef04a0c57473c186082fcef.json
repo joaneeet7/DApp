@@ -1,1 +1,0 @@
-{"ast":null,"code":"import getNative from './_getNative.js';\nimport root from './_root.js';\n/* Built-in method references that are verified to be native. */\n\nvar DataView = getNative(root, 'DataView');\nexport default DataView;","map":null,"metadata":{},"sourceType":"module"}

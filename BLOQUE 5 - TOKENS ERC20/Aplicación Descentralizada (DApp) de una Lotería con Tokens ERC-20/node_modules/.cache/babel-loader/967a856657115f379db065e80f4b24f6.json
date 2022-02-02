@@ -1,1 +1,0 @@
-{"ast":null,"code":"import overArg from './_overArg.js';\n/* Built-in method references for those with the same name as other `lodash` methods. */\n\nvar nativeKeys = overArg(Object.keys, Object);\nexport default nativeKeys;","map":null,"metadata":{},"sourceType":"module"}
