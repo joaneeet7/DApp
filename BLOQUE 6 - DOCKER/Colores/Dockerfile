@@ -9,6 +9,7 @@ COPY . .
 
 # Instalación de módulos necesarios
 RUN npm install
+RUN npm install -g truffle@5.4.5
 
 # Exposición de un puerto del contenedor de Docker
 EXPOSE 3000
