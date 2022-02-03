@@ -17,8 +17,8 @@
     "react-bootstrap": "1.0.0-beta.5",
     "react-dom": "16.8.4",
     "react-scripts": "2.1.3",
-    "truffle": "5.0.5",
-    "@truffle/hdwallet-provider": "^1.4.0",
+    "truffle": "5.4.31",
+    "@truffle/hdwallet-provider": "2.0.2",
     "web3": "^1.2.11"
   },
   "homepage": "http://joaneeet7.github.io/DApp",
