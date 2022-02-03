@@ -46,7 +46,9 @@ En el curso nos centraremos en:
 
 * Aprenderás a **desplegar tus contratos en la Blockchain Binance Smart Chain (BSC)**.
 
-* Desplegarás una **DApp para la venta de Tokens ERC-20 en Binance Smart Chain (BSC)**. 
+* Desplegarás una **DApp para la venta de Tokens ERC-20 en Binance Smart Chain (BSC)**.
+
+* Desplegarás todas las **DApps usando la tecnología de contenedores Docker**.
 
 * Finalmente, realizaremos la **creación de una Blockchain y una Criptomoneda con Python desde 0**.
 
