@@ -68,7 +68,7 @@
   "sourceMap": "65:480:2:-:0;;;154:50;5:9:-1;2:2;;;27:1;24;17:12;2:2;154:50:2;189:10;181:5;;:18;;;;;;;;;;;;;;;;;;65:480;;;;;;",
   "deployedSourceMap": "65:480:2:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;65:480:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;378:165:2;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;378:165:2;;;;;;;;;;;;;;;;;;;:::i;:::-;;113:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;89:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;271:103;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;271:103:2;;;;;;;;;;;;;;;;;:::i;:::-;;378:165;254:5;;;;;;;;;;;240:19;;:10;:19;;;236:26;;;440:19:::1;473:11;440:45;;491:8;:21;;;513:24;;491:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5:9:-1;2:2;;;27:1;24::::0;17:12:::1;2:2;491:47:2;;;;8:9:-1;5:2;;;45:16;42:1;39::::0;24:38:::1;77:16;74:1;67:27;5:2;491:47:2;;;;261:1;236:26:::0;378:165;:::o;113:36::-;;;;:::o;89:20::-;;;;;;;;;;;;;:::o;271:103::-;254:5;;;;;;;;;;;240:19;;:10;:19;;;236:26;;;360:9:::1;333:24;:36;;;;236:26:::0;271:103;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.4 <0.7.0;\n\ncontract Migrations {\n  address public owner;\n  uint public last_completed_migration;\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n  modifier restricted() {\n    if (msg.sender == owner) _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n\n  function upgrade(address new_address) public restricted {\n    Migrations upgraded = Migrations(new_address);\n    upgraded.setCompleted(last_completed_migration);\n  }\n}\n",
-  "sourcePath": "/Users/joan_amengual/GitHub/DApp/DAPPS - DOCKER/Aplicación Descentralizada (DApp) con Tokens ERC-20/src/contracts/Migrations.sol",
+  "sourcePath": "/Users/joan_amengual/GitHub/DApp/BLOQUE 6 - DOCKER/Aplicación Descentralizada (DApp) con Tokens ERC-20/src/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -1521,8 +1521,8 @@
     "97": {
       "events": {},
       "links": {},
-      "address": "0x7723a80E585F92208966F3A2a4A3473ce8A50a0e",
-      "transactionHash": "0x28fef2aba5b7873be55c9a5736d4bc11b084144187f9fa3f9aa8163d0d9fd8e4"
+      "address": "0x413AF07cE55361790fc31BAb6bB9BE7A5E770834",
+      "transactionHash": "0xa2873129c00ca8c0aba52c8a7e4ce93afc11d241b81538fe135a3de41f6b296f"
     },
     "5777": {
       "events": {},
@@ -1532,7 +1532,7 @@
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2022-02-02T20:11:23.100Z",
+  "updatedAt": "2022-02-04T13:38:30.093Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

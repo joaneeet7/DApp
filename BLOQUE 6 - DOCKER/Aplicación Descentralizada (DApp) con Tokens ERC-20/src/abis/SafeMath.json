@@ -8,7 +8,7 @@
   "sourceMap": "272:587:3:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "272:587:3:-:0;;;;;;12:1:-1;9;2:12",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.4 <0.7.0;\npragma experimental ABIEncoderV2;\n\n\n// Implementacion de la libreria SafeMath para realizar las operaciones de manera segura\n// Fuente: \"https://gist.github.com/giladHaimov/8e81dbde10c9aeff69a1d683ed6870be\"\n\nlibrary SafeMath{\n    // Restas\n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\n      assert(b <= a);\n      return a - b;\n    }\n    \n    // Sumas\n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\n      uint256 c = a + b;\n      assert(c >= a);\n      return c;\n    }\n    \n    // Multiplicacion\n    function mul(uint256 a, uint256 b) internal pure returns (uint256) {\n        if (a == 0) {\n            return 0;\n        }\n\n        uint256 c = a * b;\n        require(c / a == b, \"SafeMath: multiplication overflow\");\n\n        return c;\n    }\n}\n",
-  "sourcePath": "/Users/joan_amengual/GitHub/DApp/DAPPS - DOCKER/Aplicación Descentralizada (DApp) con Tokens ERC-20/src/contracts/SafeMath.sol",
+  "sourcePath": "/Users/joan_amengual/GitHub/DApp/BLOQUE 6 - DOCKER/Aplicación Descentralizada (DApp) con Tokens ERC-20/src/contracts/SafeMath.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/SafeMath.sol",
     "exportedSymbols": {
@@ -2256,7 +2256,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2022-02-02T20:09:33.715Z",
+  "updatedAt": "2022-02-04T13:36:52.668Z",
   "devdoc": {
     "methods": {}
   },
